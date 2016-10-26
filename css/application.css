@@ -206,12 +206,14 @@ h1 {
   font-weight: 300;
   font-size: 2.625em;
   line-height: 1.09524;
-  margin-bottom: 1.66667em; }
+  margin-bottom: 1.66667em;
+  color: #575757; }
 
 h2 {
   font-family: "Helvetica Neue", Helvetica, Ariel, sans-serif;
   font-weight: 100;
-  font-size: 1.5em; }
+  font-size: 1.5em;
+  color: #9f9f9f; }
 
 .site-logo {
   margin-bottom: 2em; }
