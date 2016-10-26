@@ -1,0 +1,66 @@
+// ==========================================================================
+// Global Config
+// ==========================================================================
+
+// Font Stacks
+$font-url--google: 'http://fonts.google.com/css?family=Lato:100,300,400,700,900';
+$font-family--primary: 'Lato', 'Helvetica Neue', Helvetica, Ariel, sans-serif;
+$font-family--secondary: 'Helvetica Neue', Helvetica, Ariel, sans-serif;
+
+// Font Weights
+$font-weight--thin: 100;
+$font-weight--light: 300;
+$font-weight--medium: 400;
+$font-weight--bold: 700;
+$font-weight--ultra-bold: 900;
+
+// Descriptive Base Colors
+$white: #fff;
+$grey-2: #F9F9F9;
+$grey-5: #F2F2F2;
+$grey-5-blue: #F2F2F9;
+$grey-10: #E5E5E5;
+$grey-15: #D9D9D9;
+$grey-20: #CCC;
+$grey-25: #BFBFBF;
+$grey-30: #B2B2B2;
+$grey-35: #A6A6A6;
+$grey-40: #999;
+$grey-45: #8C8C8C;
+$grey-50: #808080;
+$grey-55: #737373;
+$grey-60: #666;
+$grey-65: #595959;
+$grey-70: #4D4D4D;
+$grey-75: #404040;
+$grey-80: #333;
+$grey-85: #262626;
+$grey-90: #1A1A1A;
+$grey-95: #0D0D0D;
+$black: #000;
+
+$fountain-blue: #52bab3;
+$emerald: #5ece7f;
+$sunglo: #e67478;
+$coral: #ff784f;
+$purple-majesty: #9279c3;
+$scooter: #39add1;
+
+// Color Usage
+$color-primary: $fountain-blue;
+$color-secondary: $scooter;
+$color-accent: $emerald;
+$color-shadow: rgba($black, .2);
+
+// UI color-shadow
+$ui-colors: (
+  default: $fountain-blue,
+  success: $emerald,
+  error: $sunglo,
+  warning: $coral,
+  info: $purple-majesty
+);
+
+// Text
+$base--font-size: 16px;
+$base--line: 24px;

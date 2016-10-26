@@ -1,0 +1,23 @@
+// ==========================================================================
+// Utilities
+// ==========================================================================
+
+// Import if Google Fonts URL is defined
+@if variable-exists(font-url--google) {
+  @import url($font-url--google);
+}
+
+// Functions and Directives
+@function em($target, $context: $base--font-size) {
+  @return ($target / $context) * 1em;
+}
+
+// Mixins
+
+@mixin bg-colors($map) {
+  @each $theme, $color in $map {
+    &--#{$theme} {
+      background-color: $color;
+    }
+  }
+}
