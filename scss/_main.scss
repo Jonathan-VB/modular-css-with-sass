@@ -4,6 +4,7 @@
 
 .site-logo {
   margin-bottom: 2em;
+  @include img-replace("logo.svg", 150px, 45px, inline-block);
 }
 
 .btn,
