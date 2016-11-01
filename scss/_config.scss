@@ -3,84 +3,82 @@
 // ==========================================================================
 
 // Font Stacks
-$font-url--google: 'http://fonts.google.com/css?family=Lato:100,300,400,700,900';
-$font-family--primary: 'Lato', 'Helvetica Neue', Helvetica, Ariel, sans-serif;
-$font-family--secondary: 'Helvetica Neue', Helvetica, Ariel, sans-serif;
+
+$font-url--google        : 'http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900';
+$font-family--primary    : 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-family--secondary  : 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 // Font Weights
-$font-weight--thin: 100;
-$font-weight--light: 300;
-$font-weight--medium: 400;
-$font-weight--bold: 700;
-$font-weight--ultra-bold: 900;
+
+$font-weight--thin       : 100;
+$font-weight--light      : 300;
+$font-weight--medium     : 400;
+$font-weight--bold       : 700;
+$font-weight--ultra-bold : 900;
 
 // Descriptive Base Colors
-$white: #fff;
-$grey-2: #F9F9F9;
-$grey-5: #F2F2F2;
-$grey-5-blue: #F2F2F9;
-$grey-10: #E5E5E5;
-$grey-15: #D9D9D9;
-$grey-20: #CCC;
-$grey-25: #BFBFBF;
-$grey-30: #B2B2B2;
-$grey-35: #A6A6A6;
-$grey-40: #999;
-$grey-45: #8C8C8C;
-$grey: #808080;
-$grey-55: #737373;
-$grey-60: #666;
-$grey-65: #595959;
-$grey-70: #4D4D4D;
-$grey-75: #404040;
-$grey-80: #333;
-$grey-85: #262626;
-$grey-90: #1A1A1A;
-$grey-95: #0D0D0D;
-$black: #000;
 
-$fountain-blue: #52bab3;
-$emerald: #5ece7f;
-$sunglo: #e67478;
-$coral: #ff784f;
-$purple-majesty: #9279c3;
-$scooter: #39add1;
+$white : #fff;
+$black : #0b0b0b;
+$grey  : #797e83;
+
+$fountain-blue  : #52bab3;
+$emerald        : #5ece7f;
+$sunglo         : #e67478;
+$coral          : #ff784f;
+$purple-majesty : #9279c3;
+$scooter        : #39add1;
 
 // Color Usage
-$color-primary: $fountain-blue;
-$color-secondary: $scooter;
-$color-accent: $emerald;
-$color-shadow: rgba($black, .2);
 
-//Color palette modifiers
+$color-primary   : $fountain-blue;
+$color-secondary : $scooter;
+$color-accent    : $emerald;
+$color-shadow    : rgba($black, .2);
+
+// Color Palette Modifiers
+
 $palettes: (
   grey: (
-    xx-light: lighten($grey, 43%),
-    x-light: lighten($grey, 35%),
-    light: lighten($grey, 12%),
-    base: $grey,
-    dark: darken($grey, 8%),
-    x-dark: darken($grey, 16%)
+    xx-light : lighten($grey, 43%),
+    x-light  : lighten($grey, 35%),
+    light    : lighten($grey, 12%),
+    base     : $grey,
+    dark     : darken($grey, 8%),
+    x-dark   : darken($grey, 16%)
   ),
-  black: (
-    light: lighten($black, 10%),
-    base: $black,
-    dark: darken($black, 10%)
-  )
+	black: (
+		light    : lighten($black, 10%),
+		base     : $black,
+		dark     : darken($black, 10%)
+	)
 );
 
-// UI color-shadow
+// UI Colors
+
 $ui-colors: (
-  default: $fountain-blue,
-  success: $emerald,
-  error: $sunglo,
-  warning: $coral,
-  info: $purple-majesty
+	default : $fountain-blue,
+	success : $emerald,
+	error   : $sunglo,
+	warning : $coral,
+	info    : $purple-majesty
 );
 
 // Text
-$base--font-size: 16px;
-$base--line: 24px;
 
-// Path
-$path--rel: '../img';
+$base__font-size : 16px;
+$base__line      : 24px;
+$letter-space    : 1px;
+
+// Border radius
+
+$br--default     : .4em;
+$br--round       : 50%;
+
+// Transitions
+
+$trns-duration   : .3s;
+
+// Path to Assets
+
+$path--rel       : "../img";
